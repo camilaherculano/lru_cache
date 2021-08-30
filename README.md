@@ -1,6 +1,6 @@
 # lru_cache
 
-LRU Cache or Least Recently Used Cache is organizes items in order of use. 
+LRU Cache or Least Recently Used Cache organizes items in order of use, and removes the lru items from the cache if exceeds the cache maximum size.
 
 In that implementation was used a Hash for check and return, and DLL for insert and remove. All operations executes in O(1).
 
